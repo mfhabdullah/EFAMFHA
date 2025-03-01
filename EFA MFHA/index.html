@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English for All</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1>English for All</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#teachers">Teachers</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Master English with Expert Guidance</h2>
+            <p>Join our courses and improve your Speaking, Reading, Writing, Listening, Phonics, and Grammar skills.</p>
+            <a href="#contact" class="btn">Enroll Now</a>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses">
+        <div class="container">
+            <h2>Our Courses</h2>
+            <div class="course-list">
+                <div class="course-item">
+                    <div class="course-content">
+                        <h3>Speaking</h3>
+                    </div>
+                </div>
+                <div class="course-item">
+                    <div class="course-content">
+                        <h3>Reading</h3>
+                    </div>
+                </div>
+                <div class="course-item">
+                    <div class="course-content">
+                        <h3>Writing</h3>
+                    </div>
+                </div>
+                <div class="course-item">
+                    <div class="course-content">
+                        <h3>Listening</h3>
+                    </div>
+                </div>
+                <div class="course-item">
+                    <div class="course-content">
+                        <h3>Phonics</h3>
+                    </div>
+                </div>
+                <div class="course-item">
+                    <div class="course-content">
+                        <h3>Grammar</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Teachers Section -->
+    <section id="teachers">
+        <div class="container">
+            <h2>Our Teachers</h2>
+            <div class="teacher-grid">
+                <div class="teacher-card">
+                    <img src="teacher1.jpeg" alt="Teacher 1">
+                    <h3>Mfh Abdullah</h3>
+                    <p>3+ years of experience in teaching English.</p>
+                </div>
+                <div class="teacher-card">
+                    <img src="alamin.jpeg" alt="Teacher 1">
+                    <h3>Md Alamin</h3>
+                    <p>14+ years of experience in teaching English.</p>
+                </div>
+                <!-- Repeat for other teachers -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials">
+        <div class="container">
+            <h2 style="text-align: center;">What Our Students Say</h2>
+            <div class="testimonial-slider">
+                <div class="testimonial-card">
+                    <p>"This course changed my life! Highly recommended."</p>
+                    <h4>- Sami</h4>
+                </div>
+                <div class="testimonial-card">
+                    <p>"The teachers are very supportive and knowledgeable."</p>
+                    <h4>- Ahil</h4>
+                </div>
+                <div class="testimonial-card">
+                    <p>"The teachers are very supportive and knowledgeable."</p>
+                    <h4>- Affan</h4>
+                </div>
+                <!-- Repeat for other testimonials -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Admissions Section -->
+    <form name="admission" method="POST" data-netlify="true"
+    action="/thank-you.html" netlify-honeypot="bot-field">
+        <!-- Honeypot field for spam prevention -->
+        <p class="hidden">
+            <label>Don’t fill this out if you’re human: <input name="bot-field"></label>
+        </p>
+    
+        <!-- Form fields -->
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" required>
+    
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+    
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="phone" required>
+    
+        <label for="course">Select Course Duration</label>
+        <select id="course" name="course" required>
+            <option value="3">3 years</option>
+            <option value="4">4 years</option>
+            <option value="5">5 years</option>
+            <option value="seniors">Seniors Course (6 months)</option>
+        </select>
+    
+        <!-- Submit button -->
+        <button type="submit">Submit</button>
+    </form> <gap>        </gap> 
+            <div class="contact-info">
+                <a href="https://wa.me/+8801977387632" class="whatsapp-btn">WhatsApp Us</a>
+                <p><b>Email:</b> mfhabdullah21@gmail.com</p>
+                <p><b>Phone:</b> +8801977387632</p>
+                <p><b>Location:</b> Mirpur 2 (on the loveroad)</p> <p> Mirpur 10 (opposite of hope school)</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>Established in 2010 | <a href="#privacy-policy">Privacy Policy</a></p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="scripts.js"></script>
+</body>
+</html>
